@@ -6,6 +6,7 @@ By getting to know the various parameters the users can gauge the quality of the
 ```
 pip install PrettyTable
 pip install easygui
+pip install setuptools
 ```
 ## Installation
 
