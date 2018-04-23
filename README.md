@@ -7,6 +7,13 @@ By getting to know the various parameters the users can gauge the quality of the
 pip install PrettyTable
 pip install easygui
 ```
+## Installation
+
+After installing the dependacies, clone the repository and run the setup file using the following command.
+```
+python setup.py install
+```
+Now the package is ready to be used in any python program.
 ## Example
 ```
 from citta import check
