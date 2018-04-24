@@ -1,5 +1,5 @@
 # Ocean-Python-Lib
-Python library (under development) for the [ocean protocol](https://oceanprotocol.com/) that process the data &amp; give various parameters to the end users. 
+Python library (under development by [citta](https://www.citta.ai/) for the [ocean protocol](https://oceanprotocol.com/) that process the data &amp; give various parameters to the end users. 
 By getting to know the various parameters the users can gauge the quality of the data and then decide if they want to use if for their tasks.
 
 ## Dependencies
