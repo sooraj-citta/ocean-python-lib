@@ -3,11 +3,8 @@ Python library (under progress by [citta](https://www.citta.ai/)) for the [ocean
 By getting to know the various parameters the users can gauge the quality of the data and then decide if they want to use if for their tasks.
 
 ## Dependencies
-```
-pip install PrettyTable
-pip install easygui
-pip install setuptools
-```
+These include PrettyTable, easygui & setuptools which is automatically installed while building or installing the library.
+
 ## Installation
 
 After installing the dependacies, clone the repository and run the setup file using the following command.
