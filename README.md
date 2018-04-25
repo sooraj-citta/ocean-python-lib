@@ -23,3 +23,6 @@ import easygui
 location = easygui.fileopenbox()
 table=check.summary(location)
 ```
+## Maintainers
+
+This repo is updated and maintained by [Hisham](https://github.com/Hisham-PM) and [Deepika](https://github.com/17Deepika).
