@@ -7,7 +7,7 @@ These include PrettyTable, easygui & setuptools which is automatically installed
 
 ## Installation
 
-After installing the dependacies, clone the repository and run the setup file using the following command.
+Run the setup file using the following command.
 ```
 python setup.py install
 ```
