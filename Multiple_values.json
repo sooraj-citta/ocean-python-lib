@@ -1,0 +1,7 @@
+{
+  "first_name" : ["Sammy","dammy"],
+  "last_name" : "Shark",
+  "location" : "Ocean",
+  "online" : true,
+  "followers" : [987,1000,259,25687,741]
+}
