@@ -1,5 +1,4 @@
 # Ocean-Python-Lib
-===================
 **citta** - Python library (under progress) for the [ocean protocol](https://oceanprotocol.com/) that process the data &amp; give various parameters to the end users. 
 By getting to know the various parameters the users can gauge the quality of the data and then decide if they want to use it for their tasks. The citta library contains a file conversion module which currently has a **_csv to json_** & **_json to csv_** convertor module. The output so created will be stored in the source location itself with the same name as the source file.
 ```
@@ -10,11 +9,9 @@ citta
         └── json2csv
 ```
 ## Dependencies
----------------
 Includes PrettyTable, easygui, numpy & pandas which are automatically installed while building or installing the library. The library is based on python 3.5.
 
 ## Installation
----------------
 #### Via building library
 * Clone the folder using git clone or download.
 * Within the folder run the following command `python setup.py install`.
@@ -22,7 +19,6 @@ Includes PrettyTable, easygui, numpy & pandas which are automatically installed 
 #### Via testPypi
 * Use this command to install the library from testPypi directly `pip install --index-url https://test.pypi.org/simple/  citta`
 ## Contents
------------
 The **_csv to json_** modules take an input csv file and creates json file of required format depending on the function used. 
 * csv2json output :
 ```
@@ -62,7 +58,6 @@ Multiple arrays
 ```
 
 ## Example
-----------
 ```
 from citta import check
 import easygui
@@ -73,5 +68,4 @@ file_convert.csv2json(location)
 file_convert.csv_to_json(location)
 ```
 ## Maintainers
----------------
 This repo is updated and maintained by [Hisham](https://github.com/Hisham-PM) and [Deepika](https://github.com/17Deepika). Our company [website](https://www.citta.ai/).
