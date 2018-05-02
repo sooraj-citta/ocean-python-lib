@@ -14,7 +14,7 @@ Includes PrettyTable, easygui, numpy & pandas which are automatically installed 
 ## Installation
 #### Via building library
 * Clone the folder using git clone or download.
-* Within the folder run the following command `python setup.py install`.
+* Within the folder run the following command `python setup.py sdist`.
 * Open the **dist** folder and run pip install from there. This will install the library locally. 
 #### Via testPypi
 * Use this command to install the library from testPypi directly `pip install --index-url https://test.pypi.org/simple/  citta`
@@ -59,7 +59,7 @@ Multiple arrays
 
 ## Example
 ```
-from citta import check
+from citta import file_convert
 import easygui
 
 location = easygui.fileopenbox()
