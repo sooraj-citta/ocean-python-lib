@@ -16,8 +16,9 @@ Includes PrettyTable, easygui, numpy & pandas which are automatically installed 
 * Clone the folder using git clone or download.
 * Within the folder run the following command `python setup.py sdist`.
 * Open the **dist** folder and run pip install from there. This will install the library locally. 
+* You can also directly `pip install citta-1.1.tar.gz` file in the home folder if you want to avoid building from scratch.
 #### Via testPypi
-* Use this command to install the library from testPypi directly `pip install --index-url https://test.pypi.org/simple/  citta`
+* ~~Use this command to install the library from testPypi directly `pip install --index-url https://test.pypi.org/simple/  citta`~~
 ## Contents
 The **_csv to json_** modules take an input csv file and creates json file of required format depending on the function used. 
 * csv2json output :
