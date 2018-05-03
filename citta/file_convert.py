@@ -184,7 +184,7 @@ def json2csv(filepath):
                 else:
                     a.append(x.keys())          
                     a.append(x.values())
-                    print("Json to csv conversion successful !")
+                   
             """
             The last block is used to create output filename and output path. 
             The output path will be same as that of the input location and 
@@ -204,8 +204,10 @@ def json2csv(filepath):
                 with open(save_path,"w") as f1:
                     writer = csv.writer(f1)
                     writer.writerows(a)
+                print("Json to csv conversion successful !")
             else:
                 a.to_csv(save_path,index=False)
+                print("Json to csv conversion successful !")
         except:
             print("Input file json format is invalid !")
     else:
